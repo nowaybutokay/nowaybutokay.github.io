@@ -1,0 +1,362 @@
+.backg {
+    position: absolute;
+    width: 1549px;
+    height: 880px;
+    left: calc(50% - 1549px/2 - 14.5px);
+    top: calc(50% - 880px/2);
+}
+
+.greenmenu {
+    position: absolute;
+    width: 1680px;
+    height: 140px;
+    left: 0px;
+    top: 0px;
+    text-decoration: none;
+    background: #C6DEA4;
+    mix-blend-mode: normal;
+}
+
+.homepage {
+    position: absolute;
+    width: 145px;
+    height: 98px;
+    left: 65px;
+    top: 25px;
+    text-decoration: none;
+    font-family: Heiti SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 49px;
+    color: #1B3386;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.graphicdesign {
+    position: absolute;
+    width: 218px;
+    height: 98px;
+    left: 303px;
+    top: 25px;
+    text-decoration: none;
+    font-family: Heiti SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 49px;
+    color: #1B3386;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.aboutme {
+    position: absolute;
+    width: 333px;
+    height: 84px;
+    left: 614px;
+    top: 25px;
+    text-decoration: none;
+    font-family: HelvetiHand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 84px;
+    /* identical to box height */
+    color: #29261E;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.typographic {
+    position: absolute;
+    width: 218px;
+    height: 98px;
+    left: 1075px;
+    top: 25px;
+    text-decoration: none;
+    font-family: Heiti SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 49px;
+    text-align: right;
+    color: #1B3386;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.webdesign {
+    position: absolute;
+    width: 174px;
+    height: 98px;
+    left: 1386px;
+    top: 25px;
+    text-decoration: none;
+    font-family: Heiti SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 49px;
+    text-align: right;
+    color: #1B3386;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sims {
+    position: absolute;
+    left: 350px;
+    top: 160px;
+}
+
+.juice {
+    position: absolute;
+    left: 350px;
+    top: 585px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: inline-block;
+    /* Строчно-блочный элемент */
+    position: relative;
+    /* Относительное позиционирование */
+}
+
+.photo:hover::after {
+    content: attr(data-title);
+    /* Выводим текст */
+    position: absolute;
+    /* Абсолютное позиционирование */
+    left: 20%;
+    top: 30%;
+    /* Положение подсказки */
+    z-index: 1;
+    /* Отображаем подсказку поверх других элементов */
+    background: rgba(255, 255, 230, 0.9);
+    /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif;
+    /* Гарнитура шрифта */
+    font-size: 11px;
+    /* Размер текста подсказки */
+    padding: 5px 10px;
+    /* Поля */
+    border: 1px solid #333;
+    /* Параметры рамки */
+}
+
+.bear {
+    position: absolute;
+    left: 1100px;
+    top: 170px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nowaybutokay {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 700px;
+    top: 770px;
+    font-family: handwrited;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #1B3386;
+}
+
+.logo span {
+    font: 12px/125% Tahoma;
+}
+
+.sl_ctr {
+    margin-top: 200px;
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.sldr {
+    position: relative;
+    width: 10000px;
+    height: 300px;
+}
+
+.sldr img {
+    float: left;
+}
+
+.prv_b,
+.nxt_b {
+    position: absolute;
+    top: 300px;
+    display: block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.prv_b:hover,
+.nxt_b:hover {
+    opacity: .6;
+}
+
+.prv_b {
+    left: 10px;
+    background: url(img/prv.png) no-repeat;
+}
+
+.nxt_b {
+    right: 10px;
+    background: url(img/nxt.png) no-repeat;
+}
+
+html {
+    min-height: 100%
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font: 15px Tahoma;
+    color: #555;
+}
+
+#top {
+    width: 100%;
+    background: #222;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+}
+
+#top a {
+    color: #00FF00;
+    text-decoration: none;
+}
+
+.logo {
+    width: 200px;
+    font: 22px/125% Tahoma;
+    float: left;
+    line-height: 35px;
+}
+
+.logo span {
+    font: 12px/125% Tahoma;
+}
+
+.boris {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 700px;
+    top: 710px;
+}
+
+.me {
+    position: absolute;
+    width: 542px;
+    height: 545px;
+    left: 200px;
+    top: 200px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.text {
+    position: absolute;
+    width: 696px;
+    height: 359px;
+    left: 780px;
+    top: 218px;
+}
+
+.inst {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 95px;
+    top: 799px;
+}
+
+.vk {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 167px;
+    top: 801px;
+}
+
+.be {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 298px;
+    top: 803px;
+}
+
+.mail {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 234px;
+    top: 803px;
+}
+
+.teleg {
+    position: absolute;
+    width: 54px;
+    height: 53px;
+    left: 375px;
+    top: 808px;
+}
+
+.ny {
+    position: absolute;
+    width: 307px;
+    height: 505px;
+    left: 150px;
+    top: 180px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.tire {
+    position: absolute;
+    width: 621px;
+    height: 336px;
+    left: 520px;
+    top: 180px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.day {
+    position: absolute;
+    width: 312px;
+    height: 505px;
+    left: 1200px;
+    top: 180px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nikita {
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 599px;
+    top: 712px;
+}
+
+.site {
+    position: absolute;
+    width: 1023px;
+    height: 639px;
+    left: 300px;
+    top: 170px;
+}
+
+.pen {
+    position: absolute;
+    width: 222.37px;
+    height: 293.3px;
+    left: 1359.94px;
+    top: 550px;
+    transform: rotate(14.3deg);
+}
